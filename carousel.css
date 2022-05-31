@@ -48,7 +48,8 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin-bottom: 5rem;
+  margin-top: 10.5rem; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -109,4 +110,15 @@ body > main > div.container.marketing > div.row > div.col-lg-4 > img {
 
 .space_up {
   margin-top: 20px;
+}
+
+
+.text {
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+.example {
+  margin-top: 7rem;
+  max-width: 100%;
 }
