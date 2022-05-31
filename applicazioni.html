@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Giovanni Spallanzani">
-    <title>Quantum Computing - Home</title>
+    <title>Applicazioni</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
@@ -78,20 +78,20 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Quantum Computing</a>
+      <a class="navbar-brand" href="index.html">Quantum Computing</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="physics.html">Physics</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="applicazioni.html">Applicazioni</a>
+            <a class="nav-link active" href="#">Applicazioni</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="criticita.html">Criticità</a>
@@ -109,8 +109,8 @@
 <main>
 
   <div class="container_img">
-    <img src="img/6.jpg" class="img-fluid" alt="">
-    <div class="centered">Quantum Computing</div>
+    <img src="img/energia-potenziale.jpg" class="img-fluid" alt="">
+    <div class="centered">Applicazioni</div>
   </div>
   <br>
 
@@ -120,52 +120,44 @@
 
   <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row space_up">
-      <div class="col-lg-4">
-
-        <img src="img/icon1.png" alt="" width="100" height="100">
-
-        <h2 class="fw-normal">Quantum Physics</h2>
-        <p>Spiegazione delle basi del funzionamento dei computer quantistici
-          in modo semplice e accurato.
-        </p>
-        <p><a class="btn btn-secondary" href="physics.html">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-       
-        <img src="img/icon2.png" alt="" width="100" height="100">
-
-        <h2 class="fw-normal">Applicazioni</h2>
-        <p>Le numerose applicazioni dei computer quantistici dalla finanza alla medicina, alla chimica.</p>
-        <p><a class="btn btn-secondary" href="applicazioni.html">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        
-        <img src="img/icon3.png" alt="" width="100" height="100">
-
-        <h2 class="fw-normal">Criticità</h2>
-        <p>Difficoltà di sviluppo per un uso massiccio dei computer quantistici e altre implicazioni.</p>
-        <p><a class="btn btn-secondary" href="criticita.html">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
     <!-- START THE FEATURETTES -->
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Prima Applicazione <br> <span class="text-muted">Ricerca Farmacologica</span></h2>
+        <p class="lead text">I computer quantistici sono molto utili per il calcolo combinatorio e ciò ne permette l’applicazione in discipline come la chimica e la biologia molecolare, ad esempio sul fronte della simulazione delle strutture proteiche. Esistono diversi progetti pilota nell’ambito della ricerca farmacologica, tra cui quello attivato da ProteinQure in collaborazione con Azure Quantum, per la sperimentazione di nuovi farmaci personalizzati che potrebbero aprire un nuovo capitolo di speranza nella cura del cancro e delle patologie del sistema cardio-circolatorio.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto example" src="img/ricerca_farmaci.jpg" width="500" height="500" >
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Seconda Applicazione <br><span class="text-muted">Trasporto e distribuzione di energia</span></h2>
+        <p class="lead text">Il problema della reperibilità dell’energia e la corsa alla sostenibilità sta diventando di giorno in giorno sempre più urgente. Il gigante dell’energia Exxon ha iniziato un percorso di ricerca e sviluppo che utilizza le simulazioni quantistiche per cercare soluzioni innovative nei processi di distribuzione del gas, di ottimizzazione della logistica per il trasporto marittimo, nonché nuovi metodi di produzione basati su materiali attivi.
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto example" src="img/exxonmobil-fitnessfinanziario-1280x720-1.webp" width="500" height="500" >
+
+      </div>
+    </div>
 
     <hr class="featurette-divider">
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">Computer quantistici IBM <br><span class="text-muted">Accessibili a tutti</span></h2>
-        <p class="lead text">Oggi IBM offre a chiunque l’accesso ad un processore quantistico a 5 qubit. Mentre  il gigante della tecnologia lavora ad un computer con decine di qubit, sta mettendo online il suo chip più piccolo: «Vogliamo renderlo accessibile a persone che potrebbero non sapere molto sul quantum computing, ma che sono interessate a conoscere la tecnologia», dice Jerry Chow di IBM Research a New York.
-          <br>È possibile programmare il chip di IBM utilizzando un servizio web chiamato <a href="https://quantum-computing.ibm.com/" target="_blank">Composer</a>, così chiamato perché l’interfaccia assomiglia a una partitura musicale. I tutorial spiegano come trascinare e rilasciare diverse porte logiche quantistiche per creare un algoritmo, che può poi essere eseguito sul chip fisico del laboratorio di IBM.
-          <br> Le porte quantistiche sono i mattoni elementari per il calcolo quantistico, agendo sui qubit nello stesso modo in cui le porte della logica classica agiscono sui bit per cambiare il loro stato in maniera controllabile. Il Composer è un’interfaccia utente grafica per la programmazione di un processore quantistico. Pensatelo come strumento per costruire algoritmi quantistici usando una libreria di misure e porte ben definite (operazioni che cambiano lo stato del qubit).
-
+        <h2 class="featurette-heading fw-normal lh-1">Terza Applicazione <br><span class="text-muted">Modelli di traffico urbano</span></h2>
+        <p class="lead text">Un esempio di complessità con cui molti di noi hanno quotidianamente a che fare è quella del congestionamento del traffico urbano, che ci obbliga a lunghe e frustranti code. Eppure tali ingorghi potrebbero essere aggirati con successo da una bella simulazione col quantum computing. Ne è particolarmente convinta Volkswagen, che ha intrapreso una serie di progetti pilota per ottimizzare i sistemi di navigazione nel traffico di città molto differenti tra loro, quali Pechino, Barcellona e Lisbona. Nella città portoghese Volkswagen ha dotato nove autobus di linea di un navigatore supportato da un computer quantistico D-Wave, che grazie alle analisi predittive si rivela in grado di suggerire gli itinerari migliori in funzione del traffico, ottimizzando sensibilmente la logistica.
         </p>
       </div>
       <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto example" src="img/an-iBM-Quantum-computer.png" width="500" height="500" >
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto example" src="img/Traffico-urbano.jpg" width="500" height="500" >
 
       </div>
     </div>

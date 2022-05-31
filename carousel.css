@@ -122,3 +122,15 @@ body > main > div.container.marketing > div.row > div.col-lg-4 > img {
   margin-top: 7rem;
   max-width: 100%;
 }
+
+.button_color {
+  border: var(--bs-btn-border-width) solid #ffc107;
+  color: #ffc107;
+  --bs-btn-color: #ffc107;
+  --bs-btn-border-color: #ffc107;
+  --bs-btn-hover-bg: #ffc107;
+  --bs-btn-hover-border-color: #ffc107;
+  --bs-btn-active-bg: #ffc107;
+  --bs-btn-active-border-color: #ffc107;
+  --bs-btn-disabled-color: #ffc107;
+}
